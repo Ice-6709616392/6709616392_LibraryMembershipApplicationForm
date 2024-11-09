@@ -15,7 +15,23 @@
         <label for="eng-name">ชื่อ-นามสกุล (ภาษาอังกฤษ):</label>
         <input type="text" id="eng-name" name="eng-name" required>
         
+        <label>เพศ:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">ชาย</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">หญิง</label>
         
+        <label for="student-id">รหัสนักศึกษา:</label>
+        <input type="text" id="student-id" name="student-id" required pattern="[0-9]{8}">
+        
+        <label for="faculty">คณะที่ศึกษา:</label>
+        <input type="text" id="faculty" name="faculty" required>
+        
+        <label for="email">อีเมล:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="birthdate">วันเกิด:</label>
+        <input type="date" id="birthdate" name="birthdate" required>
     </form>
 </body>
 </html>
